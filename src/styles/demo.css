@@ -12,6 +12,23 @@
   object-position: center bottom;
 }
 
+/* Fix the original's desktop horizontal overflow — demo build only.
+   .profile-img-wrap is width:100vw / position:fixed, but it sits inside
+   .nav-container, which GSAP scales. A transformed ancestor becomes the
+   containing block for fixed children, so "fixed" resolves against the sidebar
+   (offset 20px from the left) rather than the viewport, and the 100vw box hangs
+   20px off the right edge. Pulling it back by that offset — in the sidebar's own
+   scaled coordinate space, so it stays correct at every width — removes the
+   overflow without clipping anything. The faithful build deliberately does NOT
+   get this: it has to reproduce heynesh.com, defect included.
+
+   Note: demo.css is bundled BEFORE site.css, and site.css sets `inset: 0%` at
+   equal specificity, so this needs the extra class to win on specificity rather
+   than source order. */
+.nav-container .profile-img-wrap {
+  left: -20px;
+}
+
 #demo-banner {
   position: fixed;
   inset: auto 0 0 0;
