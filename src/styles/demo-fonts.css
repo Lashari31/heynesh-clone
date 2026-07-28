@@ -1,0 +1,50 @@
+/* Demo-build type substitution.
+
+   The original's faces (Tr 3 A, PP Neue Montreal) are commercial and not
+   licensed for redistribution, so the published demo aliases those exact family
+   names to free variable equivalents — Archivo for the display face, Manrope for
+   the body face. Aliasing rather than overriding every selector means nothing
+   can silently fall through to Arial.
+
+   Both substitutes are variable fonts, so one file covers the whole weight range.
+
+   Metrics differ from the originals, so line breaks and measured widths will not
+   match heynesh.com. Layout, motion, colour and the fluid type SYSTEM
+   (clamp(.75rem, 1.18vw, 1.5rem) with em multiples) are unchanged. */
+
+@font-face {
+  font-family: 'Tr 3 A';
+  src: url('/assets/demo/fonts/display-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Archivo';
+  src: url('/assets/demo/fonts/display-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Ppneuemontreal Book';
+  src: url('/assets/demo/fonts/body-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Ppneuemontreal';
+  src: url('/assets/demo/fonts/body-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Manrope';
+  src: url('/assets/demo/fonts/body-400.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}

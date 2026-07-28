@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 177 40">
+  <circle cx="18" cy="20" r="11" fill="#fff" opacity="0.85"/>
+  <text x="38" y="20" dominant-baseline="central"
+        font-family="Archivo, Arial, sans-serif" font-size="18" font-weight="700"
+        fill="#fff">Northwind</text>
+</svg>

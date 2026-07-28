@@ -9,7 +9,10 @@
     "audit:orig": "node _research/audit.mjs",
     "shots:orig": "node _research/capture.mjs https://heynesh.com/ orig",
     "shots:mine": "node _research/capture.mjs http://localhost:5180/ mine",
-    "compare": "node _research/compare.mjs"
+    "compare": "node _research/compare.mjs",
+    "demo": "node _research/make-placeholder-assets.mjs && node _research/make-placeholder.mjs",
+    "demo:build": "npm run demo && vite build && node _research/deploy-demo.mjs",
+    "restore": "node _research/build-html.mjs"
   },
   "keywords": [],
   "author": "",

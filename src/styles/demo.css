@@ -1,0 +1,41 @@
+/* Demo-build overrides. Loaded only by the placeholder variant.
+   Type substitution is handled by demo-fonts.css, which aliases the original
+   family names, so no per-selector font overrides are needed here. */
+
+/* Placeholder art is SVG; keep it filling its box the way the AVIFs did. */
+.work-image {
+  object-fit: cover;
+}
+.hero-profile-img,
+.mobile-hero-image {
+  object-fit: contain;
+  object-position: center bottom;
+}
+
+#demo-banner {
+  position: fixed;
+  inset: auto 0 0 0;
+  z-index: 9999;
+  padding: 0.6rem 1rem;
+  background: #111;
+  color: #f2f2ef;
+  font-family: 'Manrope', Arial, sans-serif;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  border-top: 1px solid #ffff23;
+}
+#demo-banner strong {
+  color: #ffff23;
+}
+#demo-banner a {
+  color: #ffff23;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #demo-banner {
+    font-size: 10px;
+    padding: 0.5rem 0.75rem;
+  }
+}

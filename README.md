@@ -29,12 +29,40 @@ measured off it, not invented.
 
 Reference inventory: **[SECTIONS.md](SECTIONS.md)**.
 
+**Live demo:** https://lashari31.github.io/heynesh-clone/
+
+That deployment is the **placeholder variant**, not the faithful one — see
+[The two builds](#the-two-builds). Nothing of the original's branding, copy,
+photography, client work or typefaces is published there.
+
 ```bash
 npm install
-npm run dev        # http://localhost:5180
+npm run dev        # http://localhost:5180  (faithful build)
 npm run build      # -> dist/
 npm run preview    # http://localhost:5181
+
+npm run demo       # rewrite index.html to the placeholder variant
+npm run demo:build # build + strip originals + verify, ready for Pages
+npm run restore    # regenerate the faithful index.html
 ```
+
+## The two builds
+
+| | Faithful | Demo (published) |
+|---|---|---|
+| Purpose | verify fidelity against the original | show the engineering publicly |
+| Branding | NESH®, real copy | AXIS®, placeholder copy |
+| Photography / client work | the original's | generated SVG stand-ins |
+| Typefaces | Tr 3 A, PP Neue Montreal | Archivo, Manrope (free, aliased to the same family names) |
+| Where | local only | GitHub Pages |
+
+`_research/deploy-demo.mjs` **refuses to publish** if any original media, font or
+identity token survives into `dist/` — it is a hard gate, not a checklist.
+
+Because the substitute faces have different metrics, the demo's line breaks and
+measured widths do not match heynesh.com. Layout, motion, colour and the fluid
+type *system* are unchanged. All fidelity numbers below are from the faithful
+build.
 
 ---
 
