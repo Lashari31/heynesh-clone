@@ -1,0 +1,508 @@
+
+      html.w-mod-js:not(.w-mod-ix3) :is(.popup-card-wrap.is-active-card) {
+        visibility: hidden !important;
+      }
+    
+
+/* ---- next block ---- */
+
+
+
+          /* ============================================
+             TABLE OF CONTENTS
+             ============================================
+             1. Lenis Smooth Scroll
+             2. Base Resets & Performance
+             3. Logo & SVG Optimization
+             4. Layout & Entrance Animations
+             5. Typography & Text Styles
+             6. Number Counter Components
+             7. Interactive Elements
+             8. Swiper Components
+             9. Safari-Specific Fixes
+             10. Animation Utilities
+             ============================================ */
+
+          /* ============================================
+             1. LENIS SMOOTH SCROLL
+             ============================================ */
+          html.lenis,
+          html.lenis body {
+            height: auto;
+          }
+
+          .lenis.lenis-smooth {
+            scroll-behavior: auto !important;
+          }
+
+          .lenis.lenis-smooth [data-lenis-prevent] {
+            overscroll-behavior: contain;
+          }
+
+          .lenis.lenis-stopped {
+            overflow: hidden;
+          }
+
+          .lenis.lenis-scrolling iframe {
+            pointer-events: none;
+          }
+
+          body {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+
+
+          /* ============================================
+             2. BASE RESETS & PERFORMANCE
+             ============================================ */
+          .nesh-logo,
+          .nesh-logo svg,
+          .nav-logo-item,
+          .nesh-copyright-icon,
+          .nav-button,
+          .hero-cta-button,
+          .nav-button-secondary,
+          .hero-button {
+            shape-rendering: geometricPrecision !important;
+            will-change: width, height, transform !important;
+            transform: translateZ(0);
+            -webkit-font-smoothing: antialiased;
+            backface-visibility: hidden;
+          }
+
+          .nav-logo-item {
+            position: relative !important;
+          }
+
+          /* ============================================
+             3. LOGO & SVG OPTIMIZATION
+             ============================================ */
+          .nesh-logo-svg {
+            shape-rendering: geometricPrecision;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            transform: translateZ(0);
+          }
+
+          /* ============================================
+             4. LAYOUT & ENTRANCE ANIMATIONS
+             ============================================ */
+          /* Hide entrance elements initially */
+          .profile-img-item,
+          .hero-navigation-link,
+          .hero-navigation-sep,
+          .hero-card-3,
+          .hero-cards-left,
+          .hero-left-text,
+          .hero-right-text,
+          .hero-buttons-wrap {
+            opacity: 0;
+            visibility: hidden;
+          }
+
+          .hero-heading {
+           visibility: hidden;
+          }
+
+            /* ============================================
+             DESIGN MODE — reveal hidden entrance elements
+             ============================================ */
+          .wf-design-mode .profile-img-item,
+          .wf-design-mode .hero-navigation-link,
+          .wf-design-mode .hero-navigation-sep,
+          .wf-design-mode .hero-card-3,
+          .wf-design-mode .hero-cards-left,
+          .wf-design-mode .hero-left-text,
+          .wf-design-mode .hero-right-text,
+          .wf-design-mode .hero-buttons-wrap {
+            opacity: 1;
+            visibility: visible;
+          }
+
+          /* hero-heading only had visibility:hidden */
+          .wf-design-mode .hero-heading {
+            visibility: visible;
+          }
+
+          /* Line mask for text animations */
+          .line-mask {
+            overflow: hidden;
+            display: block;
+          }
+
+          /* ============================================
+             5. TYPOGRAPHY & TEXT STYLES
+             ============================================ */
+          .hero-heading,
+          .nav-webflow-text {
+            kerning: none;
+          }
+
+          .hero-webflow-projects-text,
+          .nav-webflow-text {
+            line-height: 1.1 !important;
+          }
+
+          .nav-webflow-text {
+            display: block;
+          }
+
+          /* Gradient text styles */
+          .h2-style {
+            background: linear-gradient(266deg, #3d3d3d 11.86%, #000 92.59%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .h2-style .line {
+            background: linear-gradient(266deg, #3d3d3d 11.86%, #000 92.59%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .h2-style-white {
+            background: linear-gradient(89deg, #d5d5d5 7.42%, #fff 95.11%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .h2-style-white .line {
+            background: linear-gradient(89deg, #d5d5d5 7.42%, #fff 95.11%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+
+          .text-color-white {
+            color: white !important;
+          }
+
+          /* ============================================
+             6. NUMBER COUNTER COMPONENTS
+             ============================================ */
+          [data-number-count] {
+            display: inline-block;
+            font-variant-numeric: tabular-nums;
+          }
+
+          .number-wrap {
+            display: inline-flex;
+            line-height: 1;
+            overflow: hidden;
+            vertical-align: bottom;
+          }
+
+          .digit-mask {
+            position: relative;
+            overflow: hidden;
+            height: 1em;
+            width: 0.65em;
+            display: block;
+          }
+
+          .digit-track {
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            line-height: 1;
+            transform: translateZ(0);
+            will-change: transform;
+          }
+
+          .digit-track span {
+            display: block;
+            height: 1em;
+            line-height: 1em;
+            text-align: center;
+          }
+
+          /* ============================================
+             7. INTERACTIVE ELEMENTS
+             ============================================ */
+          /* Work card hover effects */
+          .work-card:hover {
+            opacity: 1;
+          }
+
+
+          @media (min-width: 992px) {
+            /* When any card is hovered, show overlay on ALL cards */
+            .work-track:hover .work-card .work-image-overlay {
+              opacity: 1 !important;
+            }
+            /* Undo for the hovered card */
+            .work-track:hover .work-card:hover .work-image-overlay {
+              opacity: 0 !important;
+            }
+            /* When any card is hovered, dim ALL arrow wraps */
+            .work-track:hover .work-card .work-card-arrow-wrap {
+              background-color: #2F2F2F !important;
+              color: #8C8C8C !important;
+            }
+            /* Undo for the hovered card */
+            .work-track:hover .work-card:hover .work-card-arrow-wrap {
+              background-color: #FFFF23 !important;
+              color: black !important;
+            }
+          }
+          /* Navigation marquee animation */
+          .nav-comapny-item {
+            display: inline-flex;
+            flex-shrink: 0;
+            animation: marquee-move 25s linear infinite;
+          }
+
+          @keyframes marquee-move {
+            0% {
+              transform: translateX(0);
+            }
+            100% {
+              transform: translateX(-100%);
+            }
+          }
+
+            .nav-email-item:hover .email-text,
+            .nav-email-item:hover .clipboard-wrap {
+              opacity: 0.35;
+            }
+
+          /* ============================================
+             8. SWIPER COMPONENTS
+             ============================================ */
+          .swiper {
+            margin-left: 0 !important;
+            margin-right: 0 !important;
+            overflow: visible !important;
+          }
+
+          .swiper-pagination {
+            width: auto !important;
+            display: flex;
+            margin-bottom: 1.67vw;
+            padding: 0.69vw;
+            border: 1px solid rgba(255, 255, 255, 0.2) !important;
+            border-radius: 0.56vw;
+            position: relative !important;
+          }
+
+          .swiper-bullet.is-active {
+            width: 2.5vw;
+            background-color: #ffff23;
+          }
+
+          .swiper-wrapper {
+           cursor: none !Important;
+          }
+          /* ============================================
+             9. SAFARI-SPECIFIC FIXES
+             ============================================ */
+          /* Scroll blur fix */
+          [data-tl-to*="blur"] {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            -webkit-perspective: 1000px;
+            perspective: 1000px;
+            will-change: filter, transform, opacity;
+          }
+
+          /* Image blur fix - prevents white borders/flashing */
+          .hero-profile-img {
+            -webkit-transform: translateZ(0) scale(1.001);
+            transform: translateZ(0) scale(1.001);
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+            will-change: filter;
+          }
+
+          /* ============================================
+             10. ANIMATION UTILITIES
+             ============================================ */
+          .anim-char {
+            transform: translate3d(0, 0, 0);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+          }
+
+          .capa-card-item:hover .capa-card-arrow {
+           rotate: 180deg;
+          }
+
+          .hero-navigation-link.w--current {
+           color: black !important;
+          }
+
+          .hero-navigation-link.w--current ~ .nav-item-bg {
+            background-color: #FFFF23 !Important;
+          }
+
+          .hero-navigation-link.w--current ~ .nav-item-icon {
+            color: black !Important;
+          }
+
+          .faq-list.w--open .faq-answer-wrap {
+           grid-template-rows: 1fr;
+          }
+
+          .faq-toggle.w--open .faq-icon-v-line {
+           transform: rotate(90deg);
+          }
+
+          .faq-toggle:hover .faq-icon {
+           background-color: #EDECDA;
+          }
+
+          [data-origin] {
+            will-change: transform;
+          }
+
+          .nav-button-mask {
+            overflow: hidden;
+            position: relative;
+            padding-left: 0.8vw;
+            padding-right: 0.8vw;
+          }
+
+          .nav-button-mask .clone-p {
+            position: absolute;
+            inset: 0;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0.8vw;
+            padding-right: 0.8vw;
+            text-align: center;
+          }
+
+          [data-button-hover].is-text-link {
+            overflow: hidden;
+            position: relative;
+          }
+
+          [data-button-hover].is-text-link .clone-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+          }
+
+          .nav-link:hover ~ .nav-item-bg {
+           background-color: #C9C8BA !important;
+          }
+
+          .nav-link.w--current:hover ~ .nav-item-bg {
+           background-color: #ffff23 !important;
+          }
+
+
+          .nav-link:hover ~ .nav-item-bg.nav-item-dark {
+           background: rgba(94, 94, 94, 0.50)!important;
+          }
+
+          .nav-link.w--current:hover ~ .nav-item-bg.nav-item-dark {
+            background-color: #ffff23 !important;
+          }
+
+          .nav-link:hover ~ .nav-item-icon {
+           color: #ffff23 !important;
+          }
+
+          .nav-link.w--current:hover ~ .nav-item-icon {
+           color: black !important;
+          }
+
+          	.nav-webflow-bg {
+          	backdrop-filter: blur(15px) !important;
+          }
+
+          .social-link:hover {
+           background-color: #C9C8BA !important;
+          }
+
+          .social-link.social-dark:hover {
+           	background-color: #5E5E5E !important;
+          }
+
+          .social-link:hover .social-bg-path {
+           color: #ffff23 !important;
+          }
+
+          .social-link:hover .social-path-white {
+           fill: #000 !important;
+          }
+
+          .popup-close:hover .popup-close-path-1{
+            transform: rotate(90deg);
+            background-color: white;
+          }
+
+          .popup-close:hover .popup-close-path-2{
+            transform: rotate(-90deg);
+            background-color: white;
+          }
+
+          .work-card:hover .work-card-arrow-2 {
+            margin: 0%;
+          }
+
+            .work-card:hover .work-card-arrow {
+            margin-left: 100%;
+          }
+
+          /* ============================================
+             MOBILE STYLES
+             ============================================ */
+
+          @media (width < 767px) {
+            /* ============================================
+             4. LAYOUT & ENTRANCE ANIMATIONS
+             ============================================ */
+                /* Hide entrance elements initially */
+                .profile-img-wrap,
+                .hero-navigation-link,
+                .hero-navigation-sep,
+                .nav-stats-card,
+                .hero-cards-left,
+                .hero-card-3,
+                .hero-cards-wrap,
+                .hero-left-text,
+                .hero-right-text,
+                .hero-buttons-wrap {
+                  opacity: 1;
+                  visibility: visible;
+                }
+
+                .hero-heading {
+                   visibility: visible;
+                  }
+
+
+                .swiper-pagination {
+                  width: auto !important;
+                  display: flex;
+                  margin-bottom: 0vw;
+                  padding: clamp(0.53rem, 2.67vw, 1.28rem);
+                  border: 1px solid rgba(255, 255, 255, 0.2) !important;
+                  clamp(0.43rem, 2.13vw, 1.02rem);
+                  position: relative !important;
+                }
+
+                .swiper-bullet.is-active {
+                    width: clamp(1.92rem, 9.6vw, 4.61rem);
+                    background-color: #ffff23;
+          			}
+
+                .capa-card-item:hover .capa-card-arrow {
+                     rotate: 0deg;
+                    }
+
+                .faq-toggle:hover .faq-icon {
+                   background-color: transparent;
+                  }
+          }
+        

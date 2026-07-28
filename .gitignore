@@ -1,0 +1,27 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+
+# Commercial typefaces (Tr 3 A, PP Neue Montreal). Present locally so the build
+# can be verified against the original at the pixel level, but NOT licensed for
+# redistribution, so they stay out of version control.
+# Anyone rebuilding this supplies their own licensed copies in public/assets/fonts/,
+# or swaps the @font-face blocks in src/styles/site.css for free substitutes
+# (Switzer for PP Neue Montreal; a grotesk such as Archivo Expanded for Tr 3 A).
+public/assets/fonts/
+
+# Safari HEVC alpha masters for the work-card hover videos: ~100 MB across 9
+# files, and only Safari ever requests them. Everything else (the background
+# videos and the VP9 .webm foregrounds) IS committed, so the site is complete
+# in Chrome / Firefox / Edge straight after clone.
+# Regenerate with:  node _research/fetch-videos.mjs
+public/assets/video/*.mov
+
+# Working captures from the verification runs. The scripts regenerate these:
+#   node _research/capture.mjs https://heynesh.com/ orig 1440
+#   node _research/capture.mjs http://localhost:5180/ mine 1440
+#   node _research/compare.mjs 1440
+_research/shots/
+_research/dev.log
+_research/preview.log

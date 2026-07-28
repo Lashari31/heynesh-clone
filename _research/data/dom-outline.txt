@@ -1,0 +1,424 @@
+<body> [1440x13863 @0,0] disp:block pos:static
+  <div.page-wrap> [1440x13863 @0,0] disp:block pos:relative
+    <div.capa-overview-wrap> [0x0 @0,0] disp:none pos:static
+    <div.w-embed> [1440x0 @0,0] disp:block pos:static
+    <div.nesh-logo-preload-wrap> [1440x374 @0,40] disp:flex pos:fixed
+      <svg> [0x0 @0,0] disp:none pos:absolute
+        <path> [0x0 @0,0] disp:inline pos:static
+        <path> [0x0 @0,0] disp:inline pos:static
+        <path> [0x0 @0,0] disp:inline pos:static
+        <path> [0x0 @0,0] disp:inline pos:static
+    <header.navigation> [267x900 @20,0] disp:block pos:fixed
+      <div.nav-container> [257x859 @20,18] disp:block pos:static
+        <div.profile-img-wrap> [1440x900 @20,18] disp:flex pos:fixed
+          <div.profile-img-item> [1440x900 @20,18] disp:flex pos:static
+            <img.hero-profile-img> [1441x901 @-2,18] disp:block pos:static
+        <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe61a2-be2d4114.nav-top-layout> [257x196 @20,18] disp:flex pos:relative
+          <div.nav-top-bg> [129x98 @20,18] disp:block pos:absolute
+          <div.nav-top-item> [227x37 @35,33] disp:flex pos:relative
+            <div.nav-logo> [85x37 @35,33] disp:flex pos:relative
+              <div.nav-logo-item> [51x14 @49,45] disp:flex pos:relative
+            <div.social-wrap> [62x29 @200,38] disp:flex pos:static
+              <a.social-link.w-inline-block> [9x9 @200,48] disp:flex pos:static
+              <a.social-link.w-inline-block> [9x9 @233,48] disp:flex pos:static
+            <div.mobile-menu-wrap> [0x0 @0,0] disp:none pos:static
+              <a.nav-button-mobile.w-button> [0x0 @0,0] disp:none pos:relative TEXT:"Book a Call"
+              <div.mobile-menu> [0x0 @0,0] disp:block pos:static
+          <p.nav-top-text> [202x89 @35,109] disp:block pos:relative
+            <div.line-mask> [202x22 @35,109] disp:block pos:static
+              <div.line> [202x22 @35,132] disp:block pos:relative TEXT:"Working closely with your team to"
+            <div.line-mask> [202x22 @35,132] disp:block pos:static
+              <div.line> [202x22 @35,154] disp:block pos:relative TEXT:"deliver Webflow builds that merge"
+            <div.line-mask> [202x22 @35,154] disp:block pos:static
+              <div.line> [202x22 @35,176] disp:block pos:relative TEXT:"creativity, technical excellence, and"
+            <div.line-mask> [202x22 @35,176] disp:block pos:static
+              <div.line> [202x22 @35,198] disp:block pos:relative TEXT:"long-term value."
+        <div.nav-stats-wrap> [257x111 @20,229] disp:flex pos:relative
+          <div#stats_projects.nav-stats-card> [88x66 @43,252] disp:flex pos:relative
+            <div.nav-webflow-bg> [214x104 @257,596] disp:block pos:absolute
+            <div.nav-webflow-icon-wrap> [88x27 @43,252] disp:flex pos:relative
+              <svg> [90x56 @282,620] disp:block pos:relative
+            <div.nav-webflow-text-wrap> [58x32 @58,286] disp:flex pos:relative
+              <p#projects_start_text.nav-webflow-text> [68x37 @380,629] disp:block pos:relative TEXT:"80+ Projects"
+          <div.nav-stats-sep> [1x48 @148,261] disp:block pos:relative
+          <div#stats_years.nav-stats-card> [88x66 @166,252] disp:flex pos:relative
+            <div.nav-experience-bg> [139x151 @301,723] disp:block pos:absolute
+            <div#yrs_big_text.nav-experience-numb-wrap> [39x26 @191,252] disp:flex pos:relative
+              <svg> [79x53 @331,747] disp:block pos:static
+            <div#yrs_small_text_end.nav-experience-text-wrap> [77x32 @172,286] disp:block pos:relative
+              <p.nav-experience-text> [90x37 @325,812] disp:block pos:static TEXT:"Years of experience"
+          <div.nav-top-bg> [129x56 @20,229] disp:block pos:absolute
+        <div.nav-menu-wrap> [257x522 @20,356] disp:flex pos:static
+          <nav.nav-menu> [257x331 @20,356] disp:flex pos:relative
+            <div.nav-menu-item> [101x35 @35,371] disp:flex pos:relative
+              <a.nav-link.w-inline-block.w--current> [0x0 @86,388] disp:block pos:absolute
+              <div.nav-item-bg> [51x17 @61,380] disp:flex pos:absolute
+              <svg> [3x3 @51,387] disp:block pos:relative
+              <a.hero-navigation-link.w--current> [56x17 @40,422] disp:block pos:relative
+            <div.nav-menu-item> [142x35 @35,415] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @107,433] disp:block pos:absolute
+              <a.hero-navigation-link.is-text-link> [96x17 @129,422] disp:block pos:relative
+              <svg> [3x3 @51,431] disp:block pos:relative
+              <div.nav-item-bg> [71x17 @71,424] disp:flex pos:absolute
+            <div.nav-menu-item> [138x35 @35,460] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @104,477] disp:block pos:absolute
+              <a.hero-navigation-link.is-text-link> [92x17 @258,422] disp:block pos:relative
+              <svg> [3x3 @51,475] disp:block pos:relative
+              <div.nav-item-bg> [69x17 @70,468] disp:flex pos:absolute
+            <div.nav-menu-item> [183x35 @35,504] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @127,521] disp:block pos:absolute
+              <svg> [3x3 @51,520] disp:block pos:relative
+              <a.hero-navigation-link.is-text-link> [136x17 @960,422] disp:block pos:relative
+              <div.nav-item-bg> [91x17 @81,512] disp:flex pos:absolute
+            <div.nav-menu-item> [130x35 @35,548] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @100,565] disp:block pos:absolute
+              <a.hero-navigation-link.is-text-link> [90x17 @1128,422] disp:block pos:relative
+              <svg> [2x3 @49,564] disp:block pos:relative
+              <div.nav-item-bg> [65x17 @68,557] disp:flex pos:absolute
+            <div.nav-menu-item> [124x35 @35,592] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @98,610] disp:block pos:absolute
+              <a.hero-navigation-link.is-text-link> [79x17 @1252,422] disp:block pos:relative
+              <svg> [3x3 @51,608] disp:block pos:relative
+              <div.nav-item-bg> [62x17 @66,601] disp:flex pos:absolute
+            <div.nav-menu-item> [82x35 @35,637] disp:flex pos:relative
+              <a.nav-link.w-inline-block> [0x0 @76,654] disp:block pos:absolute
+              <a.hero-navigation-link.is-text-link> [37x17 @1363,422] disp:block pos:relative
+              <svg> [3x3 @51,652] disp:block pos:relative
+              <div.nav-item-bg> [41x17 @56,645] disp:flex pos:absolute
+            <div.nav-menu-bg> [129x166 @20,438] disp:block pos:absolute
+          <div.nav-comapny-wrap> [257x48 @20,702] disp:flex pos:static
+            <div.nav-comapny-item> [722x26 @-180,713] disp:flex pos:static
+              <svg> [49x17 @-180,718] disp:block pos:static
+              <svg> [68x17 @-112,718] disp:block pos:static
+              <div.happy-ring-wrap> [72x26 @-24,713] disp:block pos:relative
+              <svg> [79x17 @68,718] disp:block pos:static
+              <div.semiconbio-wrap> [96x26 @166,713] disp:block pos:relative
+              <svg> [71x13 @281,719] disp:block pos:static
+              <svg> [84x17 @372,718] disp:block pos:static
+              <svg> [47x17 @475,718] disp:block pos:static
+            <div.nav-comapny-item> [722x17 @542,718] disp:flex pos:static
+              <svg> [49x17 @542,718] disp:block pos:static
+              <svg> [68x17 @610,718] disp:block pos:static
+              <img.happy-ring> [72x17 @698,718] disp:block pos:static
+              <svg> [79x17 @790,718] disp:block pos:static
+              <img.semiconbio> [96x17 @888,718] disp:block pos:static
+              <svg> [71x13 @1003,719] disp:block pos:static
+              <svg> [84x17 @1094,718] disp:block pos:static
+              <svg> [47x17 @1197,718] disp:block pos:static
+          <div.nav-email-wrap> [257x48 @20,766] disp:block pos:static
+            <div.nav-email-item> [238x29 @30,775] disp:flex pos:relative
+              <p.email-text> [134x26 @82,777] disp:block pos:static TEXT:"nenad@popadic.co"
+              <div.clipboard-item> [150x34 @176,751] disp:flex pos:absolute
+              <div.clipboard-wrap> [13x13 @240,783] disp:block pos:absolute
+          <div.nav-button-wrap> [257x48 @20,829] disp:block pos:relative
+            <a.nav-button.w-inline-block> [148x47 @572,813] disp:flex pos:absolute
+              <div.nav-button-mask> [126x26 @583,823] disp:block pos:relative
+            <a.nav-button-secondary.w-inline-block> [136x47 @732,813] disp:flex pos:absolute
+              <div.nav-button-mask> [114x26 @742,823] disp:block pos:relative
+    <main.main-wrap> [1440x12627 @0,0] disp:block pos:relative
+      <section#hero.hero> [1440x2700 @0,0] disp:flex pos:relative
+        <div.hero-sticky> [1440x900 @0,0] disp:flex pos:sticky
+          <div.nesh-logo-preload> [1440x900 @0,0] disp:flex pos:absolute
+            <div.nesh-logo-wrap> [1360x358 @40,40] disp:block pos:relative
+              <div.nesh-logo-ghost-wrap> [1360x358 @40,40] disp:flex pos:static
+            <div.hero-navigation-wrap> [1360x17 @40,422] disp:flex pos:relative
+              <div.hero-links-ghost-wrapper> [309x17 @40,422] disp:flex pos:relative
+              <div.hero-links-ghost-wrapper.is-hero-right-nav-item> [440x17 @960,422] disp:flex pos:relative
+          <div.hero-container> [1340x82 @50,778] disp:flex pos:relative
+            <p.hero-left-text> [158x54 @50,806] disp:block pos:relative
+              <div.line-mask> [158x27 @50,806] disp:block pos:static
+              <div.line-mask> [158x27 @50,833] disp:block pos:static
+            <div.hero-content-layout> [1340x307 @50,553] disp:flex pos:absolute
+              <h1.hero-heading> [417x236 @512,553] disp:block pos:static
+              <div.hero-buttons-wrap> [295x47 @573,813] disp:flex pos:static
+            <p.hero-right-text> [355x82 @1035,778] disp:block pos:relative
+              <div.line-mask> [355x27 @1035,778] disp:block pos:static
+              <div.line-mask> [355x27 @1035,806] disp:block pos:static
+              <div.line-mask> [355x27 @1035,833] disp:block pos:static
+            <div.hero-cards-wrap> [925x279 @257,596] disp:block pos:fixed
+              <div.hero-cards-left> [925x279 @257,596] disp:flex pos:relative
+              <div.hero-card-3> [166x191 @952,568] disp:flex pos:absolute
+          <div.mobile-hero-image-wrap> [0x0 @0,0] disp:none pos:static
+            <img.mobile-hero-image> [0x0 @0,0] disp:inline-block pos:static
+      <section#about.about-section> [1440x3120 @0,1530] disp:block pos:relative
+        <div.container> [1118x2904 @302,1530] disp:block pos:static
+          <div.column> [1118x269 @302,1530] disp:flex pos:relative
+            <div.label> [10x24 @302,1530] disp:block pos:static TEXT:"Start small grow big"
+            <h2.h2-style.margin-bottom-s> [424x132 @302,1566] disp:block pos:static
+              <div.line-mask> [424x66 @302,1566] disp:block pos:static
+              <div.line-mask> [424x66 @302,1632] disp:block pos:static
+            <p.max-width-389> [366x82 @302,1718] disp:block pos:static
+              <div.line-mask> [366x27 @302,1718] disp:block pos:static
+              <div.line-mask> [366x27 @302,1745] disp:block pos:static
+              <div.line-mask> [366x27 @302,1772] disp:block pos:static
+          <div.about-wrap> [1118x2595 @302,1839] disp:flex pos:static
+            <div#ac-1.about-card-wrap.ac-1> [448x358 @972,1839] disp:flex pos:relative
+              <div.about-card> [256x208 @1057,1943] disp:flex pos:relative
+              <div.about-card-point-wrap> [2x358 @1418,1839] disp:flex pos:static
+            <div.about-card-container> [1118x2237 @302,2197] disp:flex pos:relative
+              <div.about-card-wrap.ac-2> [448x358 @488,2181] disp:flex pos:absolute
+              <div.about-card-wrap.ac-3> [448x331 @407,2606] disp:flex pos:absolute
+              <div.about-card-wrap.ac-4> [448x331 @852,2959] disp:flex pos:absolute
+              <div.about-card-wrap.ac-5> [448x331 @884,3349] disp:flex pos:absolute
+              <div.about-card-wrap.ac-6> [448x358 @361,3605] disp:flex pos:absolute
+              <div.about-card-wrap.ac-7> [448x311 @760,4015] disp:flex pos:absolute
+              <div.about-timeline-wrap> [1118x2165 @302,2197] disp:block pos:relative
+            <div.mobile-timeline-wrap> [0x0 @0,0] disp:none pos:static
+              <svg> [0x0 @0,0] disp:inline pos:static
+      <section#work.work_section> [1440x3600 @0,4650] disp:block pos:relative
+        <div.work-sticky-support> [1440x2700 @0,4650] disp:block pos:static
+        <div#projects.work-sticky> [1440x900 @0,4650] disp:flex pos:sticky
+          <div.work-container> [1118x797 @302,4702] disp:block pos:static
+            <div.work-top-layout> [1118x188 @302,4702] disp:grid pos:static
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe64ae-be2d4114.column> [551x188 @302,4702] disp:flex pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe64b5-be2d4114.work-top-text> [367x109 @1053,4741] disp:block pos:static
+            <div.work-track-wrap> [1118x550 @302,4949] disp:flex pos:static
+              <div.work-track> [3739x550 @917,4949] disp:flex pos:static
+      <section#overview.what_you_get_section> [1440x1240 @0,8250] disp:block pos:static
+        <div.container> [1046x808 @302,8466] disp:block pos:static
+          <div.column.flex-center.text-center> [1046x808 @302,8466] disp:flex pos:relative
+            <h2.h2-big.h2-style> [754x324 @448,8466] disp:block pos:static TEXT:"What You Get?"
+              <br> [0x203 @1056,8445] disp:inline pos:static
+            <div.label> [10x24 @820,8831] disp:block pos:static TEXT:"Capabilities Overview"
+            <p.what_you_get-text> [896x408 @377,8866] disp:block pos:static
+              <span.anim-char> [45x76 @398,8861] disp:inline pos:static TEXT:"S"
+              <span.anim-char> [24x76 @444,8861] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [29x76 @468,8861] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [39x76 @497,8861] disp:inline pos:static TEXT:"a"
+              <span.anim-char> [24x76 @536,8861] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [38x76 @560,8861] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [41x76 @598,8861] disp:inline pos:static TEXT:"g"
+              <span.anim-char> [33x76 @639,8861] disp:inline pos:static TEXT:"y"
+              <span.anim-char> [19x76 @672,8861] disp:inline pos:static TEXT:","
+              <span.anim-char> [14x76 @691,8861] disp:inline pos:static
+              <span.anim-char> [41x76 @705,8861] disp:inline pos:static TEXT:"p"
+              <span.anim-char> [29x76 @746,8861] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [38x76 @774,8861] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [38x76 @812,8861] disp:inline pos:static TEXT:"c"
+              <span.anim-char> [19x76 @850,8861] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [36x76 @869,8861] disp:inline pos:static TEXT:"s"
+              <span.anim-char> [19x76 @904,8861] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [39x76 @923,8861] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [41x76 @962,8861] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [19x76 @1003,8861] disp:inline pos:static TEXT:","
+              <span.anim-char> [14x76 @1022,8861] disp:inline pos:static
+              <span.anim-char> [39x76 @1036,8861] disp:inline pos:static TEXT:"a"
+              <span.anim-char> [41x76 @1075,8861] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [41x76 @1115,8861] disp:inline pos:static TEXT:"d"
+              <span.anim-char> [14x76 @1156,8861] disp:inline pos:static
+              <span.span> [82x76 @1170,8861] disp:inline pos:static
+              <span.anim-char> [0x76 @1252,8861] disp:inline pos:static
+              <span.anim-char> [41x76 @428,8929] disp:inline pos:static TEXT:"d"
+              <span.anim-char> [37x76 @469,8929] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [37x76 @505,8929] disp:inline pos:static TEXT:"v"
+              <span.anim-char> [38x76 @542,8929] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [19x76 @580,8929] disp:inline pos:static TEXT:"l"
+              <span.anim-char> [39x76 @599,8929] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [41x76 @638,8929] disp:inline pos:static TEXT:"p"
+              <span.anim-char> [60x76 @679,8929] disp:inline pos:static TEXT:"m"
+              <span.anim-char> [38x76 @739,8929] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [41x76 @777,8929] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [24x76 @818,8929] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [14x76 @842,8929] disp:inline pos:static
+              <span.anim-char> [14x76 @855,8929] disp:inline pos:static
+              <span.anim-char> [38x76 @869,8929] disp:inline pos:static TEXT:"c"
+              <span.anim-char> [39x76 @907,8929] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [60x76 @946,8929] disp:inline pos:static TEXT:"m"
+              <span.anim-char> [41x76 @1006,8929] disp:inline pos:static TEXT:"b"
+              <span.anim-char> [19x76 @1047,8929] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [41x76 @1066,8929] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [38x76 @1106,8929] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [41x76 @1144,8929] disp:inline pos:static TEXT:"d"
+              <span.anim-char> [14x76 @1185,8929] disp:inline pos:static
+              <span.anim-char> [24x76 @1199,8929] disp:inline pos:static TEXT:"-"
+              <span.anim-char> [0x76 @1223,8929] disp:inline pos:static
+              <span.anim-char> [24x76 @396,8997] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [41x76 @420,8997] disp:inline pos:static TEXT:"u"
+              <span.anim-char> [29x76 @461,8997] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [41x76 @490,8997] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [19x76 @531,8997] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [41x76 @550,8997] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [41x76 @590,8997] disp:inline pos:static TEXT:"g"
+              <span.anim-char> [14x76 @631,8997] disp:inline pos:static
+              <span.span> [109x76 @645,8997] disp:inline pos:static
+              <span.anim-char> [14x76 @754,8997] disp:inline pos:static
+              <span.anim-char> [37x76 @768,8997] disp:inline pos:static TEXT:"y"
+              <span.anim-char> [39x76 @805,8997] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [41x76 @844,8997] disp:inline pos:static TEXT:"u"
+              <span.anim-char> [29x76 @884,8997] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [14x76 @913,8997] disp:inline pos:static
+              <span.anim-char> [38x76 @927,8997] disp:inline pos:static TEXT:"v"
+              <span.anim-char> [19x76 @965,8997] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [36x76 @984,8997] disp:inline pos:static TEXT:"s"
+              <span.anim-char> [19x76 @1020,8997] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [39x76 @1038,8997] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [41x76 @1077,8997] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [14x76 @1118,8997] disp:inline pos:static
+              <span.anim-char> [19x76 @1132,8997] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [41x76 @1150,8997] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [24x76 @1191,8997] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [39x76 @1215,8997] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [0x76 @1254,8997] disp:inline pos:static
+              <span.anim-char> [39x76 @536,9065] disp:inline pos:static TEXT:"a"
+              <span.anim-char> [14x76 @575,9065] disp:inline pos:static
+              <span.anim-char> [41x76 @589,9065] disp:inline pos:static TEXT:"p"
+              <span.anim-char> [39x76 @630,9065] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [54x76 @668,9065] disp:inline pos:static TEXT:"w"
+              <span.anim-char> [38x76 @723,9065] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [29x76 @760,9065] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [24x76 @789,9065] disp:inline pos:static TEXT:"f"
+              <span.anim-char> [41x76 @813,9065] disp:inline pos:static TEXT:"u"
+              <span.anim-char> [19x76 @854,9065] disp:inline pos:static TEXT:"l"
+              <span.anim-char> [14x76 @873,9065] disp:inline pos:static
+              <span.anim-char> [41x76 @886,9065] disp:inline pos:static TEXT:"d"
+              <span.anim-char> [19x76 @927,9065] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [41x76 @946,9065] disp:inline pos:static TEXT:"g"
+              <span.anim-char> [19x76 @987,9065] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [24x76 @1005,9065] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [39x76 @1029,9065] disp:inline pos:static TEXT:"a"
+              <span.anim-char> [19x76 @1068,9065] disp:inline pos:static TEXT:"l"
+              <span.anim-char> [14x76 @1087,9065] disp:inline pos:static
+              <span> [14x76 @1100,9065] disp:inline pos:static
+              <span.anim-char> [0x76 @1114,9065] disp:inline pos:static
+              <span.anim-char> [36x76 @412,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [39x76 @447,9133] disp:inline pos:static TEXT:"x"
+              <span.anim-char> [41x76 @486,9133] disp:inline pos:static TEXT:"p"
+              <span.anim-char> [38x76 @527,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [29x76 @565,9133] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [19x76 @594,9133] disp:inline pos:static TEXT:"i"
+              <span.anim-char> [38x76 @612,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [41x76 @650,9133] disp:inline pos:static TEXT:"n"
+              <span.anim-char> [38x76 @691,9133] disp:inline pos:static TEXT:"c"
+              <span.anim-char> [38x76 @729,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [14x76 @766,9133] disp:inline pos:static
+              <span.span> [95x76 @780,9133] disp:inline pos:static
+              <span.anim-char> [14x76 @876,9133] disp:inline pos:static
+              <span.anim-char> [24x76 @889,9133] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [41x76 @913,9133] disp:inline pos:static TEXT:"h"
+              <span.anim-char> [39x76 @954,9133] disp:inline pos:static TEXT:"a"
+              <span.anim-char> [24x76 @993,9133] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [14x76 @1017,9133] disp:inline pos:static
+              <span.anim-char> [24x76 @1031,9133] disp:inline pos:static TEXT:"f"
+              <span.anim-char> [38x76 @1054,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [38x76 @1092,9133] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [19x76 @1130,9133] disp:inline pos:static TEXT:"l"
+              <span.anim-char> [36x76 @1148,9133] disp:inline pos:static TEXT:"s"
+              <span.anim-char> [14x76 @1184,9133] disp:inline pos:static
+              <span.anim-char> [14x76 @1198,9133] disp:inline pos:static
+              <span.anim-char> [14x76 @1211,9133] disp:inline pos:static
+              <span.anim-char> [14x76 @1225,9133] disp:inline pos:static
+              <span.anim-char> [0x76 @1239,9133] disp:inline pos:static
+              <span.anim-char> [37x76 @650,9201] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [24x76 @687,9201] disp:inline pos:static TEXT:"f"
+              <span.anim-char> [24x76 @711,9201] disp:inline pos:static TEXT:"f"
+              <span.anim-char> [39x76 @735,9201] disp:inline pos:static TEXT:"o"
+              <span.anim-char> [29x76 @774,9201] disp:inline pos:static TEXT:"r"
+              <span.anim-char> [24x76 @803,9201] disp:inline pos:static TEXT:"t"
+              <span.anim-char> [19x76 @827,9201] disp:inline pos:static TEXT:"l"
+              <span.anim-char> [38x76 @846,9201] disp:inline pos:static TEXT:"e"
+              <span.anim-char> [36x76 @883,9201] disp:inline pos:static TEXT:"s"
+              <span.anim-char> [36x76 @919,9201] disp:inline pos:static TEXT:"s"
+              <span.anim-char> [18x76 @955,9201] disp:inline pos:static TEXT:"."
+              <span.anim-char> [14x76 @973,9201] disp:inline pos:static
+              <span.span> [14x76 @987,9201] disp:inline pos:static
+            <p.what_you_get-text-mobile> [0x0 @0,0] disp:none pos:static TEXT:"Strategy, precision, and development combined - turning your vision into a powerful digital experience that feels effort"
+              <br> [0x0 @0,0] disp:inline pos:static
+              <span.span> [0x0 @0,0] disp:inline pos:static
+              <span.span> [0x0 @0,0] disp:inline pos:static
+              <span> [0x0 @0,0] disp:inline pos:static
+              <span.span> [0x0 @0,0] disp:inline pos:static
+              <span.span> [0x0 @0,0] disp:inline pos:static
+            <div.capa-cards-wrap> [506x0 @572,9274] disp:flex pos:static
+              <div.capa-card> [116x56 @1170,8871] disp:flex pos:static
+              <div.capa-card> [97x55 @1100,9076] disp:flex pos:static
+              <div.capa-card> [98x57 @651,9016] disp:flex pos:static
+              <div.capa-card> [95x56 @780,9144] disp:flex pos:static
+              <div.capa-card> [101x56 @987,9211] disp:flex pos:static
+      <section#services.sevice_section> [1440x1234 @0,9490] disp:block pos:static
+        <div.container> [1118x1061 @302,9519] disp:block pos:static
+          <div#services_column.column> [1118x269 @302,9519] disp:flex pos:relative
+            <div.label> [10x24 @302,9519] disp:block pos:static TEXT:"SERVICES"
+            <h2.h2-style.margin-bottom-s> [390x132 @302,9555] disp:block pos:static
+              <div.line-mask> [390x66 @302,9555] disp:block pos:static
+              <div.line-mask> [390x66 @302,9621] disp:block pos:static
+            <p.max-width-389> [380x82 @302,9707] disp:block pos:static
+              <div.line-mask> [380x27 @302,9707] disp:block pos:static
+              <div.line-mask> [380x27 @302,9734] disp:block pos:static
+              <div.line-mask> [380x27 @302,9761] disp:block pos:static
+          <div.service-wrap> [1118x732 @302,9848] disp:flex pos:static
+            <div.service-card.is-first> [358x706 @315,9861] disp:flex pos:static
+              <div.service-top-content> [294x562 @347,9881] disp:block pos:static
+              <div.service-bottom-content> [294x54 @347,10493] disp:flex pos:static
+            <div.service-card> [320x706 @707,9861] disp:flex pos:static
+              <div.service-top-content> [320x486 @707,9881] disp:block pos:static
+              <div.service-bottom-content> [320x54 @707,10493] disp:flex pos:static
+            <div.service-card> [320x706 @1061,9861] disp:flex pos:static
+              <div.service-top-content> [320x562 @1061,9881] disp:block pos:static
+              <div.service-bottom-content> [320x54 @1061,10493] disp:flex pos:static
+      <section#webflow_journey.cta_section> [1440x1056 @0,10724] disp:block pos:static
+        <div.container> [1118x768 @302,10868] disp:block pos:static
+          <div#cta_column.column.cta-column> [832x768 @445,10868] disp:flex pos:relative
+            <h2.cta_heading> [779x440 @445,10868] disp:block pos:static
+              <div.line-mask> [779x110 @445,10868] disp:block pos:static
+              <div.line-mask> [779x110 @445,10978] disp:block pos:static
+              <div.line-mask> [779x110 @445,11088] disp:block pos:static
+              <div.line-mask> [779x110 @445,11198] disp:block pos:static
+            <p.max-width-389> [388x109 @445,11340] disp:block pos:static
+              <div.line-mask> [388x27 @445,11340] disp:block pos:static
+              <div.line-mask> [388x27 @445,11367] disp:block pos:static
+              <div.line-mask> [388x27 @445,11395] disp:block pos:static
+              <div.line-mask> [388x27 @445,11422] disp:block pos:static
+            <div.cta-wrap> [281x137 @445,11499] disp:flex pos:static
+              <img.cta_img> [44x0 @445,11499] disp:block pos:static
+              <div.column> [217x137 @509,11499] disp:flex pos:relative
+      <section#testimonial.testimonial_section> [1440x847 @0,11780] disp:block pos:static
+        <div.container> [1118x703 @302,11924] disp:block pos:static
+          <div#client_column.column> [1118x188 @302,11924] disp:flex pos:relative
+            <div.label> [10x24 @302,11924] disp:block pos:static TEXT:"TESTIMONIALS"
+            <h2.h2-style.margin-bottom-s> [525x132 @302,11960] disp:block pos:static
+              <div.line-mask> [525x66 @302,11960] disp:block pos:static
+              <div.line-mask> [525x66 @302,12026] disp:block pos:static
+          <div.swiper-main-wrap> [1138x491 @302,12136] disp:flex pos:static
+            <div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal> [226x26 @1194,12142] disp:flex pos:relative
+              <span.swiper-bullet.is-active> [36x4 @1205,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1247,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1271,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1295,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1319,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1343,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1367,12153] disp:block pos:static
+              <span.swiper-bullet> [18x4 @1391,12153] disp:block pos:static
+            <div.swiper.swiper-initialized.swiper-horizontal.swiper-autoheight.swiper-backface-hidden> [477x427 @302,12200] disp:block pos:relative
+              <div#swiper-wrapper-821cbf179f7ca145.swiper-wrapper> [477x427 @302,12200] disp:flex pos:relative
+              <span.swiper-notification> [0x0 @302,12200] disp:block pos:absolute
+      <div.drag-wrap> [1152x720 @144,90] disp:flex pos:fixed
+        <svg> [8x8 @682,446] disp:block pos:static
+          <path> [5x6 @682,447] disp:inline pos:static
+        <div.drag-circle> [54x54 @693,423] disp:flex pos:static
+          <div.drag-circle-span> [34x11 @703,444] disp:block pos:static
+            <p> [34x11 @703,444] disp:block pos:static TEXT:"drag"
+            <p> [34x11 @703,456] disp:block pos:static TEXT:"click"
+        <svg> [8x8 @750,446] disp:block pos:static
+          <path> [5x6 @752,447] disp:inline pos:static
+    <footer.footer> [1440x1235 @0,12627] disp:block pos:static
+      <div.container> [1118x991 @302,12843] disp:block pos:static
+        <div.footer-logo> [1118x302 @302,12843] disp:block pos:relative
+          <div.w-embed> [1118x302 @302,12843] disp:block pos:static
+            <svg> [1118x294 @302,12843] disp:inline pos:static
+              <defs> [0x0 @0,0] disp:inline pos:static
+              <g> [1118x272 @302,12854] disp:inline pos:static
+        <div#faq.column.faq-column-main> [1118x616 @302,13217] disp:flex pos:relative
+          <div.label> [38x24 @302,13289] disp:block pos:static TEXT:"FAQ"
+          <h2.h2-style> [344x132 @302,13325] disp:block pos:static TEXT:"Got any questions?"
+            <br> [0x74 @549,13320] disp:inline pos:static
+          <div.faq-column> [1118x305 @302,13529] disp:grid pos:static
+            <div.faq-colum-item> [553x305 @302,13529] disp:block pos:static
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe6759-be2d4114.faq.w-dropdown> [553x68 @302,13529] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe676f-be2d4114.faq.w-dropdown> [553x68 @302,13605] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe677a-be2d4114.faq.w-dropdown> [553x68 @302,13682] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe679b-be2d4114.faq.w-dropdown> [553x68 @302,13758] disp:inline-block pos:relative
+            <div.faq-colum-item> [553x305 @867,13529] disp:block pos:static
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe6764-be2d4114.faq.w-dropdown> [553x68 @867,13529] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe6785-be2d4114.faq.w-dropdown> [553x68 @867,13605] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe6790-be2d4114.faq.w-dropdown> [553x68 @867,13682] disp:inline-block pos:relative
+              <div#w-node-_5e7c5502-ddba-215f-98c3-2549ffbe67a6-be2d4114.faq.w-dropdown> [553x68 @867,13758] disp:inline-block pos:relative
